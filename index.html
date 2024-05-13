@@ -1,0 +1,483 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" content="#000000" />
+    <link rel="icon" href="/public/favicon.ico" />
+    <link
+      rel="icon"
+      href="/public/favicon-32x32.png"
+      sizes="32x32"
+      type="image/png"
+    />
+    <link
+      rel="icon"
+      href="/public/favicon-16x16.png"
+      sizes="16x16"
+      type="image/png"
+    />
+    <link rel="apple-touch-icon" href="/public/apple-touch-icon.png" />
+    <link
+      rel="apple-touch-icon"
+      href="/public/android-chrome-192x192.png"
+      sizes="192x192"
+    />
+    <link
+      rel="apple-touch-icon"
+      href="/public/android-chrome-512x512.png"
+      sizes="512x512"
+    />
+    <link rel="manifest" href="/public/manifest.json" />
+    <link rel="stylesheet" href="/output.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@300..700&display=swap"
+      rel="stylesheet"
+    />
+    <title>Sadiq Naqvi</title>
+  </head>
+
+  <body>
+    <nav class="flex-cntr-sb w-full px-4">
+      <span id="navLogo">
+        <img src="./Assets/appLogo.svg" class="w-8" alt="" />
+      </span>
+
+      <span class="flex gap-4">
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
+      </span>
+    </nav>
+
+    <header id="home" class="py-28 flex-col flex-cntr">
+      <span class="catalyst"></span>
+
+      <div id="intro" class="flex">
+        <img
+          id="headerAvatar"
+          src="/Assets/avatar.png"
+          alt=""
+          class="animate"
+        />
+
+        <span class="flex-col flex-cntr ml-3 animate delay-200">
+          <p class="mb-2 text-left text-xl w-full">Hey There 👋,</p>
+          <p class="text-left text-3xl">
+            I am <span id="introName" class="relative">Sadiq Naqvi</span>
+          </p>
+        </span>
+      </div>
+
+      <div class="mt-10 animate delay-300 flex-col">
+        <span class="mb-2 accent text-sm mx-auto sm:-ml-10"
+          >An Enthusiastic</span
+        >
+        <p class="text-2xl text-center">Web Developer | Learner | Explorer</p>
+      </div>
+
+      <div id="headerOptions" class="-mb-10 mt-10 gap-5 flex animate delay-500">
+        <a
+          href="https://drive.google.com/file/d/1LsYBC1_9Z5cas6iZZ2qM8WQ8NKvl1dH8/view?usp=drive_link"
+          target="_blank"
+        >
+          <button class="primary px-4 py-3">Checkout Resume</button>
+        </a>
+        <a href="mailto:naqvisadiq6@gmail.com">
+          <button class="tertiary px-4 py-3">
+            <img src="/Assets/sendIcon.svg" alt="" class="w-6 rotate-45" />
+            Get in Touch
+          </button>
+        </a>
+      </div>
+    </header>
+
+    <section id="about" class="py-28 flex-col flex-cntr">
+      <span class="catalyst"></span>
+      <div class="my-4 animate">
+        <h2 class="text-4xl uppercase mb-2 text-center">About me</h2>
+        <p class="text-gray-300 text-opacity-40 text-center">
+          Who am I and What I do?
+        </p>
+      </div>
+
+      <div class="my-4 w-[80%] animate delay-150">
+        <h3 class="mb-2 text-sm w-full text-gray-300 text-opacity-40 text-left">
+          WHO AM I?
+        </h3>
+        <p>
+          I'm Sadiq Naqvi, a self-taught and dedicated Full Stack Web Developer
+          from India, currently pursuing my Bachelor of Technology degree. My
+          journey in the tech field is fueled by a strong drive to innovate and
+          contribute positively to our evolving world through coding.
+        </p>
+      </div>
+
+      <div class="my-4 w-[80%] animate delay-200">
+        <h3 class="mb-2 text-sm w-full text-gray-300 text-opacity-40 text-left">
+          WHAT DO I DO?
+        </h3>
+        <p>
+          I specialize in React.js, using it to develop Progressive Web
+          Applications that elevate user experiences. Through my experiences,
+          I've encountered and tackled various challenges, refining my skills to
+          ensure seamless and effective solutions. Continuously striving for
+          excellence, I'm committed to expanding my knowledge of web development
+          technologies to stay at the forefront of the field.
+        </p>
+      </div>
+
+      <p class="text-gray-400 my-4 animate delay-300 text-center">
+        "I would like to change the world but they won't give me the source code
+        :/"
+      </p>
+      <a href="mailto:naqvisadiq6@gmail.com">
+        <button class="primary mt-4 animate delay-500">
+          <img src="/Assets/sendIcon.svg" alt="" class="w-6 rotate-45" />
+          Get in Touch
+        </button>
+      </a>
+    </section>
+
+    <section id="skills" class="py-28 flex-col flex-cntr">
+      <span class="catalyst"></span>
+      <div class="my-4 animate">
+        <h2 class="text-4xl mb-2 uppercase text-center">Tech Stack</h2>
+        <span class="text-gray-300 text-opacity-40 text-center w-full block"
+          >The Languages and Dev Tools I use.</span
+        >
+      </div>
+
+      <div
+        id="techStackContainer"
+        class="my-2 mx-auto lg:w-[80%] flex flex-wrap gap-3 animate delay-100"
+      >
+        <article
+          class="flex-1 basis-[11%] aspect-square rounded-2xl bg-white bg-opacity-5 border border-zinc-800 flex-cntr-se flex-col"
+        >
+          <img src="./Assets/html.png" alt="" class="w-[50px]" />
+          <h5 class="text-gray-500 text-sm uppercase">html</h5>
+        </article>
+        <article
+          class="flex-1 basis-[11%] aspect-square rounded-2xl bg-white bg-opacity-5 border border-zinc-800 flex-cntr-se flex-col"
+        >
+          <img src="./Assets/css.png" alt="" class="w-[50px]" />
+          <h5 class="text-gray-500 text-sm uppercase">CSS</h5>
+        </article>
+        <article
+          class="flex-1 basis-[11%] aspect-square rounded-2xl bg-white bg-opacity-5 border border-zinc-800 flex-cntr-se flex-col"
+        >
+          <img src="./Assets/tailwind.png" alt="" class="w-[50px]" />
+          <h5 class="text-gray-500 text-sm uppercase">Tailwind</h5>
+        </article>
+        <article
+          class="flex-1 basis-[11%] aspect-square rounded-2xl bg-white bg-opacity-5 border border-zinc-800 flex-cntr-se flex-col"
+        >
+          <img src="./Assets/java.png" alt="" class="w-[50px]" />
+          <h5 class="text-gray-500 text-sm uppercase">Java</h5>
+        </article>
+        <article
+          class="flex-1 basis-[11%] aspect-square rounded-2xl bg-white bg-opacity-5 border border-zinc-800 flex-cntr-se flex-col"
+        >
+          <img src="./Assets/javascript.png" alt="" class="w-[50px]" />
+          <h5 class="text-gray-500 text-sm uppercase">Javascript</h5>
+        </article>
+        <article
+          class="flex-1 basis-[11%] aspect-square rounded-2xl bg-white bg-opacity-5 border border-zinc-800 flex-cntr-se flex-col"
+        >
+          <img src="./Assets/typescript.png" alt="" class="w-[50px]" />
+          <h5 class="text-gray-500 text-sm uppercase">Typescript</h5>
+        </article>
+        <article
+          class="flex-1 basis-[11%] aspect-square rounded-2xl bg-white bg-opacity-5 border border-zinc-800 flex-cntr-se flex-col"
+        >
+          <img src="./Assets/nodejs.png" alt="" class="w-[50px]" />
+          <h5 class="text-gray-500 text-sm uppercase">Node js</h5>
+        </article>
+        <article
+          class="flex-1 basis-[11%] aspect-square rounded-2xl bg-white bg-opacity-5 border border-zinc-800 flex-cntr-se flex-col"
+        >
+          <img src="./Assets/mongodb.png" alt="" class="w-[50px]" />
+          <h5 class="text-gray-500 text-sm uppercase">Mongo DB</h5>
+        </article>
+        <article
+          class="flex-1 basis-[11%] aspect-square rounded-2xl bg-white bg-opacity-5 border border-zinc-800 flex-cntr-se flex-col"
+        >
+          <img src="./Assets/firebase.svg" alt="" class="w-[50px]" />
+          <h5 class="text-gray-500 text-sm uppercase">Firebase</h5>
+        </article>
+        <article
+          class="flex-1 basis-[11%] aspect-square rounded-2xl bg-white bg-opacity-5 border border-zinc-800 flex-cntr-se flex-col"
+        >
+          <img src="./Assets/react.png" alt="" class="w-[50px]" />
+          <h5 class="text-gray-500 text-sm uppercase">React Js</h5>
+        </article>
+        <article
+          class="flex-1 basis-[11%] aspect-square rounded-2xl bg-white bg-opacity-5 border border-zinc-800 flex-cntr-se flex-col"
+        >
+          <img src="./Assets/nextjs.png" alt="" class="w-[50px] invert" />
+          <h5 class="text-gray-500 text-sm uppercase">Next Js</h5>
+        </article>
+        <article
+          class="flex-1 basis-[11%] aspect-square rounded-2xl bg-white bg-opacity-5 border border-zinc-800 flex-cntr-se flex-col"
+        >
+          <img src="./Assets/redux.png" alt="" class="w-[50px]" />
+          <h5 class="text-gray-500 text-sm uppercase">Redux</h5>
+        </article>
+        <article
+          class="flex-1 basis-[11%] aspect-square rounded-2xl bg-white bg-opacity-5 border border-zinc-800 flex-cntr-se flex-col"
+        >
+          <img src="./Assets/zustand.png" alt="" class="w-[80px]" />
+          <h5 class="text-gray-500 text-sm uppercase">Zustand</h5>
+        </article>
+        <article
+          class="flex-1 basis-[11%] aspect-square rounded-2xl bg-white bg-opacity-5 border border-zinc-800 flex-cntr-se flex-col"
+        >
+          <img src="./Assets/git.png" alt="" class="w-[50px]" />
+          <h5 class="text-gray-500 text-sm uppercase">Git</h5>
+        </article>
+        <article
+          class="flex-1 basis-[11%] aspect-square rounded-2xl bg-white bg-opacity-5 border border-zinc-800 flex-cntr-se flex-col"
+        >
+          <img src="./Assets/github.png" alt="" class="w-[50px]" />
+          <h5 class="text-gray-500 text-sm uppercase">Github</h5>
+        </article>
+        <article
+          class="flex-1 basis-[11%] aspect-square rounded-2xl bg-white bg-opacity-5 border border-zinc-800 flex-cntr-se flex-col extra"
+        >
+          <img src="./Assets/vscodeIcon.png" alt="" class="w-[50px]" />
+          <h5 class="text-gray-500 text-sm uppercase">VS code</h5>
+        </article>
+        <article
+          class="flex-1 basis-[11%] aspect-square rounded-2xl bg-white bg-opacity-5 border border-zinc-800 flex-cntr-se flex-col extra"
+        >
+          <img src="./Assets/projectidx.png" alt="" class="w-[50px]" />
+          <h5 class="text-gray-500 text-sm uppercase">Project IDX</h5>
+        </article>
+        <article
+          class="flex-1 basis-[11%] aspect-square rounded-2xl bg-white bg-opacity-5 border border-zinc-800 flex-cntr-se flex-col extra"
+        >
+          <img src="./Assets/leetcode.png" alt="" class="w-[50px]" />
+          <h5 class="text-gray-500 text-sm uppercase">Leetcode</h5>
+        </article>
+        <article
+          class="flex-1 basis-[11%] aspect-square rounded-2xl bg-white bg-opacity-5 border border-zinc-800 flex-cntr-se flex-col extra"
+        >
+          <img src="./Assets/codepen.png" alt="" class="w-[50px]" />
+          <h5 class="text-gray-500 text-sm uppercase">Codepen</h5>
+        </article>
+        <article
+          class="flex-1 basis-[11%] aspect-square rounded-2xl bg-white bg-opacity-5 border border-zinc-800 flex-cntr-se flex-col extra"
+        >
+          <img src="./Assets/figma.png" alt="" class="w-[50px]" />
+          <h5 class="text-gray-500 text-sm uppercase">Figma</h5>
+        </article>
+        <article
+          class="flex-1 basis-[11%] aspect-square rounded-2xl bg-white bg-opacity-5 border border-zinc-800 flex-cntr-se flex-col extra"
+        >
+          <img src="./Assets/pinterest.png" alt="" class="w-[50px]" />
+          <h5 class="text-gray-500 text-sm uppercase">Pintrest</h5>
+        </article>
+        <article
+          class="flex-1 basis-[11%] aspect-square rounded-2xl bg-white bg-opacity-5 border border-zinc-800 flex-cntr-se flex-col extra"
+        >
+          <img src="./Assets/chatgpt.png" alt="" class="w-[50px] rounded-md" />
+          <h5 class="text-gray-500 text-sm uppercase">Chat gpt</h5>
+        </article>
+        <article
+          class="flex-1 basis-[11%] aspect-square rounded-2xl bg-white bg-opacity-5 border border-zinc-800 flex-cntr-se flex-col extra"
+        >
+          <img src="./Assets/techbookLogo.png" alt="" class="w-[50px]" />
+          <h5 class="text-gray-500 text-sm uppercase">Techbook</h5>
+        </article>
+        <article
+          class="flex-1 basis-[11%] aspect-square rounded-2xl bg-white bg-opacity-5 border border-zinc-800 flex-cntr-se flex-col extra"
+        >
+          <img src="./Assets/coolors.png" alt="" class="w-[50px]" />
+          <h5 class="text-gray-500 text-sm uppercase">Coolors</h5>
+        </article>
+      </div>
+    </section>
+
+    <section id="projects" class="py-28 flex-col justify-center">
+      <span class="catalyst"></span>
+      <div class="my-8 mx-auto animate">
+        <h2 class="text-4xl my-2 text-center">Projects</h2>
+        <p class="text-gray-400">Hover or Tap on a project to see details.</p>
+      </div>
+
+      <div
+        id="carousalContainer"
+        class="w-full h-[80%] flex-cntr relative animate delay-200"
+      >
+        <button id="carousalPrev" class="mx-auto disable border-2">
+          <img src="/Assets/prevIcon.svg" class="w-8" />
+        </button>
+
+        <div
+          id="projectCarousal"
+          class="h-[70dvh] overflow-x-auto overflow-y-hidden scroll-smooth w-[60%] flex items-center snap-x snap-mandatory"
+        >
+          <article
+            style="background-image: url(/Assets/pagesProject.png)"
+            class="carousalItems flex-cntr h-full min-w-full snap-center bg-contain bg-center bg-no-repeat"
+          >
+            <div class="w-full h-full rounded-2xl flex-cntr flex-col gap-6">
+              <div class="flex items-center gap-2">
+                <img src="/Assets/pagesLogo.png" alt="" class="w-8" />
+                <h3 class="text-2xl">Pages</h3>
+              </div>
+              <p class="w-[80%] text-center text-sm">
+                Meet Pages: a sophisticated web app designed to elevate your
+                note-taking experience. Whether you're a student, professional,
+                or creative thinker, Pages caters to your needs with its
+                seamless interface and powerful features. Accessible anytime,
+                anywhere, and built with cutting-edge technologies like ReactJS
+                and Firebase, Pages ensures a secure, responsive, and visually
+                stunning note-taking experience across all your devices.
+              </p>
+              <a href="https://pagesbysadiq.web.app" target="_blank">
+                <button class="primary">
+                  <img
+                    src="/Assets/sendIcon.svg"
+                    alt=""
+                    class="w-6 rotate-45"
+                  />
+                  Visit
+                </button>
+              </a>
+            </div>
+          </article>
+          <article
+            style="background-image: url(/Assets/techbookProject.png)"
+            class="carousalItems flex-cntr h-full min-w-full snap-center bg-contain bg-center bg-no-repeat"
+          >
+            <div class="w-full h-full rounded-2xl flex-cntr flex-col gap-6">
+              <div class="flex items-center gap-2">
+                <img src="/Assets/techbookLogo.png" alt="" class="w-10" />
+                <h3 class="text-2xl">Techbook</h3>
+              </div>
+              <p class="w-[85%] text-center text-sm">
+                Introducing Techbook: your ultimate digital sidekick for
+                boosting productivity and unleashing creativity. Seamlessly
+                blending note-taking, task management, and quick design
+                creation, Techbook is a cutting-edge CRUD Progressive Web App
+                designed for efficiency and innovation. It is the next evolution
+                of "Pages - Digital Notebook", boasting enhanced features and
+                unmatched performance. Perfect for those living in the digital
+                realm, offering a personalized space to store everything from
+                online snippets to design prototypes.
+              </p>
+              <a href="https://mytechbook.web.app" target="_blank">
+                <button class="primary">
+                  <img
+                    src="/Assets/sendIcon.svg"
+                    alt=""
+                    class="w-6 rotate-45"
+                  />
+                  Visit
+                </button>
+              </a>
+            </div>
+          </article>
+          <article class="flex-cntr h-full min-w-full snap-center">
+            <div
+              class="w-[80%] h-full border border-dashed border-[var(--accent)] rounded-2xl flex-cntr flex-col gap-2"
+            >
+              <img src="/Assets/codepen.svg" alt="" class="w-12" />
+              <h3 class="text-2xl">My Codepen</h3>
+              <p class="short text-gray-400 text-xs text-center">
+                Find some of my simple but interesting projects on my codepen.
+              </p>
+              <a href="https://codepen.io/Sadiq-Naqvi" target="_blank">
+                <button class="primary mt-8">
+                  <img
+                    src="/Assets/sendIcon.svg"
+                    alt=""
+                    class="w-6 rotate-45"
+                  />
+                  Visit
+                </button>
+              </a>
+            </div>
+          </article>
+          <article class="flex-cntr h-full min-w-full snap-center">
+            <div
+              class="w-[80%] h-full border border-dashed border-[var(--accent)] rounded-2xl flex-cntr flex-col gap-2"
+            >
+              <img src="/Assets/startsIcon.svg" alt="" class="w-12" />
+              <h3 class="text-2xl">Our Project Goes Here</h3>
+              <p class="text-gray-400 text-xs">Yes, Your idea and My code.</p>
+              <p class="text-gray-400 text-xs text-center">
+                Let's turn your idea into a visual reality.
+              </p>
+              <a href="mailto:naqvisadiq6@gmail.com">
+                <button class="primary mt-8">
+                  <img
+                    src="/Assets/sendIcon.svg"
+                    alt=""
+                    class="w-6 rotate-45"
+                  />
+                  Get in touch
+                </button>
+              </a>
+            </div>
+          </article>
+        </div>
+
+        <button id="carousalNext" class="mx-auto border-2">
+          <img src="/Assets/nextIcon.svg" alt="" class="w-8" />
+        </button>
+      </div>
+    </section>
+
+    <footer id="contact" class="py-28 flex-cntr flex-col">
+      <span class="catalyst"></span>
+      <h2 class="my-4 text-4xl animate">Connect and Build</h2>
+      <h3 class="my-2 text-2xl animate delay-200 text-center">
+        Let's Collaborate and Contribute in the repo called `Future`.
+      </h3>
+      <p class="short my-1 text-gray-500 animate delay-200">
+        Got an idea, Have a question or just want to say Hi.
+      </p>
+      <p class="short my-1 text-gray-500 animate delay-200">
+        Let's Connect. My inbox is always open for you.
+      </p>
+      <div class="flex gap-4 my-6 animate delay-300">
+        <a href="mailto:naqvisadiq6@gmail.com">
+          <img src="/Assets/mailIcon.svg" alt="" class="w-8" />
+        </a>
+        <a
+          href="https://drive.google.com/file/d/1LsYBC1_9Z5cas6iZZ2qM8WQ8NKvl1dH8/view?usp=drive_link"
+          target="_blank"
+        >
+          <img src="/Assets/briefcase.svg" alt="" class="w-8" />
+        </a>
+        <a href="https://www.linkedin.com/in/sadiq-naqvi-327892238/">
+          <img src="/Assets/linkedin.svg" alt="" class="w-8" />
+        </a>
+        <a href="https://github.com/SadiqNaqvi" target="_blank">
+          <img src="/Assets/githubIcon.svg" alt="" class="w-8" />
+        </a>
+        <a href="https://twitter.com/SadiqNaqvi08" target="_blank">
+          <img src="/Assets/twitter.svg" alt="" class="w-8" />
+        </a>
+        <a href="https://www.instagram.com/binarybard01" target="_blank">
+          <img src="/Assets/instagram.svg" alt="" class="w-8" />
+        </a>
+      </div>
+      <p class="short text-gray-500 my-1 animate delay-500">
+        I'll get back to you as soon as i can.
+      </p>
+      <p class="short text-gray-500 my-1 animate delay-500">
+        Feel free to mail me about any relevant job updates.
+      </p>
+    </footer>
+
+    <script src="/script.js"></script>
+  </body>
+</html>
